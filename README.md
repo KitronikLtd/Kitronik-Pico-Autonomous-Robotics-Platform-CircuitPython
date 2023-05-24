@@ -8,6 +8,8 @@ On the Autonomous Robotics Platform:
 
 To use, save PicoAutonomousRobotics.py file onto the Pico so it can be imported.
 
+You'll also need to copy the `adafruit_pioasm.mpy` and `adafruit_pixelbuf.mpy` files into the `lib` folder on your Pico. You can get these files from the [Adafruit CircuitPython Bundle](https://circuitpython.org/libraries).
+
 ## Import PicoAutonomousRobotics.py and construct an instance:
 ``` python
 from PicoAutonomousRobotics import KitronikPicoRobotBuggy
